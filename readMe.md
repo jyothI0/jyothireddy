@@ -122,4 +122,27 @@
 	+ PAdding
 	+ width
 
+	### Responsive web Design
+
+#### Flex-BOx
++ display
+	- flex
+		- flex wrap
+		- justify - content
+		-  flex direction
+		- flex flow
+	- none
+	- inline
+	- block
+	- inline block
++ position
+	- static
+	- relative
+	- absolute
+	- fixed
+	- sticky
++ allign contents
++ allign items
++ allign- self
+
 
