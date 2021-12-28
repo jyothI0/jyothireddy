@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-size: 80px;
+            border:10;
+            font-style: italic;
+            color: blueviolet;
+        }
+        /* div > p {
+            background-color: black;
+            color: pink;
+        }
+         div ~ p{
+            background-color: green;
+            color:black;
+        } 
+        div + p {
+            color: blueviolet;
+        }  */
+        p::first-letter{
+            font-size: 200px;
+        }
+
+    </style>
+</head>
+<body>
+   <div>
+       <p>
+           Paragraph1
+       </p>
+       <p>Pargraph2</p>
+       <div>
+           <p>paragraph3</p>
+           <span>paragraphspan</span>
+       </div>
+       <section>
+           <p>paragraph6</p>
+           <p>paragraph6</p>
+           <p>paragraph6</p>
+       </section> 
+       <p>paragraph4</p>
+       <p>paragraph5</p>
+       <p>paragraph7</p> 
+   </div> 
+   <!-- <p>paragraph8Enter a foreground and background color in RGB hexadecimal format;
+        (e.g., #FD3 or #F7DA39) or choose a color using the color picker. The Lightness slider;
+         can be used to adjust the selected color.WCAG 2.0 level AA requires a contrast ratio;
+          of at least 4.5:1 for normal text and 3:1 for 
+    large text. WCAG 2.1 requires a contrast ratio of at least 3:1 for graphics and user interface
+     components (such as form input borders). WCAG Level AAA requires a contrast 
+    ratio of at least 7:1 for normal text and 4.5:1 for large text.</p>
+   <h2></h2> -->
+</body>
+</html>

@@ -72,4 +72,54 @@
 	- sup
 	- sub
  ##### Reference links
-  - [ Flation]()
+  - [ Flaticon]()
+  - [color](https://htmlcolorcodes.com/)
+  - [constract checker](https://webaim.org/resources/contrastchecker/)
+  Task :
+  =====
+  - Audio
+  - Video
+  - canvas
+  - progress
+  - Data List
+  - meter 
+  - Select
+
+ ### CSS
+  - Cascading Style Sheets
+  - Types of CSS
+  - Inline CSS
+  - Internal CSS
+  - External CSS
+
+  + Syntax of CSS
+  ....
+
+  Selector {
+	  CSS Properties
+  }
+  #### Selectors
+  + simple selectors
+	- universal selectors(*)
+	 - By element name
+	 - Grouping selector(;)
+	 - class selector
+	 - Id selector
+	
+	+ Combinators
+		+ Descendent selector( )
+		+ child selector(>)
+        + Adjacent sibling selector(+)
+		+ General sibling selector(~)
+	+ Pseudo class selector
+	+ pseudo element selector
+	+ Attribute selector
+
+	### Box Model
+
+	+ Margin
+	+ Boarder
+	+ PAdding
+	+ width
+
+
