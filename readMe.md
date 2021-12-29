@@ -145,4 +145,69 @@
 + allign items
 + allign- self
 
+### Media Quries
 
+- Extra Small Devices(Mobiles)
+    -max-width:600px
+- Small Devices(Large Phones)
+	- min-width:600px
+	- max-width:768px
+- Medium Devices(Small Laptops)
+	- min-width:768px
+- Large Devices(Large laptops or Desktops)
+	- min-width:992
+- Extra Large Devices()
+	- min-width:1200px
+
+...
+@media only screen (max-width:320px) and (max-width:500px) {
+	CSS
+} 
+
+#### Bootstrap 4.6
+
+- It is a CSS framework
+- module(Collections of functions and classes)
+- (package)collection of modules
+- library(collection of packages)
+- frameworks (collection of library)
++ module --> package --> Library --> Framework
+
+
++ Type of mode
+	- online
+	 	- CDN links
+	- offline
++ background-color-bg
++ text-white 
++ Margin in bootstrap (m-*(0-5))
+	 - 0 --> 0 reem
+	 - 1 --> 0.25 (4 px)
+	 -  2 --> 0.5 ( 8px)
+	 - 3 --> 1 (16px)
+	 - 4 --> 1.5 (24px)
+     - 5 --> 3 rem (48px)
+	 - m ( margin in all directions)
+	 - ml-5(margin left)
+	 - mt (margin top)
+	 - mr (margin right)
+	 - mb (margin bottom)
++ padding (paading left --> pl-5)
+
++ colors
+	- Primary
+	- secondary
+	- info
+	- success
+	- warning
+	- danger
+	- light
+	- dark
+	- white
+
+
++ We can use color claases for 
+	- Button ( btn btn-primary)
+	- text ( text-white)
+	- background(bg-secondary)
+	- alerts (laert alert- primary)
