@@ -211,3 +211,12 @@
 	- text ( text-white)
 	- background(bg-secondary)
 	- alerts (laert alert- primary)
+
++ Grid System
+		- col -sm 12
+	- sm 
+	- md
+	- lg
+	- xl
+
+
