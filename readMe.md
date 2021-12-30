@@ -218,5 +218,79 @@
 	- md
 	- lg
 	- xl
+#### Java Script
+
++ In 1995 'Brenden Eich'  introduced JavaScript (Es-262)
++ JavaScript loosely touple and dynamic language
++ It is a text based programming language and we can use in 
+  Client side and server -side (Node.js) for dynamic web application
+  - ECMA-Script (ES-6)
+     - let & const
+	 - map()
+	 - arrow function
+     - classes
++ Datatypes
+    - Number 
+	- BigInt(2^53-1)
+	- String
+	- Boolean
+	- undefine
+	- Null
+	- Object
+	- Arrays
+	-  spread operator
+	- rest parameter
+
++ variables
+	- var,let,const
+	- scope
+		- function level--.var
+		- Block level-->let & const
+	- Redefine var,let
+	- Redeclare  var
++ typeof() 
+
++ object 
+....
+{ 
+	name:"jyothi"
+	
+}
+.....
+
++ Ararys
+
+### Alerts 
+
++ To generate notification
+	- alert
+	- prompt( to take input from user)
+	- confirm
+
++ console statements 
+	 - console.log()
+	 - console.info()
+	 - console.warn()
+	 - console.error()
+
++ spread operator
+   - To change array elements from one to onother
+ ...
+ 
+ ...variableName
+
+ ...
 
 
+
++ Rest parameter
+	
+	+ to handle function parameters
+ 
+ ...
+    ...parameter
+...
+
++ Destructuring of arrays 
+
+- 
