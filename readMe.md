@@ -294,3 +294,27 @@
 + Destructuring of arrays 
 
 - 
+
++ Functions 
+	- function with function name
+....
+   function demo() {
+   return 
+   }
+   demo () 
+   ....
+
+   - Anonymus function 
+
+   - Arrow function
+   ....
+
+  + for - in 
+   - to get index values
++ for- of
+    - to get array values
++ forEach() (ES-5)
++ map()--> (ES-6)
+
+
+    

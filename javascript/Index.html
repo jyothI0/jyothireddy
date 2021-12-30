@@ -8,6 +8,13 @@
     <script src="./index.js"></script>
 </head>
 <body>
+  <div class="main">
+    <div class="child">
+      <h2 id="demo">heading
+        <span>text</span>
+      </h2>
+    </div>
+  </div>
   <script>
     //   console.log("Jyothi")
     //    function demo() {
@@ -24,7 +31,14 @@
     //  let name2="Jyothi Reddy"
     //  console.log(name2)
     // }
-
+    var main=document.querySelector(".main");
+    var child=document.querySelector(".child");
+           var  heading=document.createElement("h1");
+          heading.textContent="Welcome";
+          child.appendchild(heading);
+          main.appendchild(child);
+          var content =document.getElementById("demo").innerHTML;
+          console.log(content)
   </script>  
 </body>
 </html>

@@ -45,15 +45,15 @@
 
 // Destructing of arrays
 
-let em =["jyothi"," harshi ","chamu"]
-let n1=em[0]
- n2=em[1]
-console.log(n1)
-console.log(n2)
-let [ shyam,sai,...data]=em
+// let em =["jyothi"," harshi ","chamu"]
+// let n1=em[0]
+//  n2=em[1]
+// console.log(n1)
+// console.log(n2)
+// let [ shyam,sai,...data]=em
 
-console.log(shyam)
-console.log(data)
+// console.log(shyam,sai,data)
+// console.log(data)
 
 // objects
 
@@ -67,3 +67,52 @@ console.log(data)
 //     let {name,...remData}=student
 //     console.log(name)
 //     console.log(remData)
+
+//functions
+
+//   let demo = function  (x,y) {
+//      return x+y
+//   }
+//   console.log(demo(3,4))
+
+//   (function(3,7){
+//       return 3*7
+//   })
+//   //Arrow function
+//   let demo =(x,y) => {
+//       return x*y
+
+// }
+
+//   setTimeout(function() {
+//       console.log("hiiiii")
+//   },3000)
+
+let em = ["jyo","chamu","harshi","bindu"]
+// for(let i=0;i<em.length;i++)
+//     console.log(em[i])
+
+// for( let i in em ) {
+//     console.log(em[i])
+
+// }
+// for (let i of em)
+//    console.log(i)
+
+// let res=em.map(function (element,index)
+
+
+// {
+//     return element +"ok"+index
+// })
+// console.log(res)
+
+let res=em.forEach(function(element) {
+    console.log( element+"  ok  ")
+})
+console.log(em)
+
+// let result = em.map((element,index) => {
+//     return element +" okk "+index
+// })
+// console.log(result)
