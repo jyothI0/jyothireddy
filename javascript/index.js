@@ -1,4 +1,4 @@
-" use Strict"
+" use strict"
 // var nam= null;
 //  console.log(nam)
 //   var age=26;
@@ -88,7 +88,7 @@
 //       console.log("hiiiii")
 //   },3000)
 
-let em = ["jyo","chamu","harshi","bindu"]
+// let em = ["jyo","chamu","harshi","bindu"]
 // for(let i=0;i<em.length;i++)
 //     console.log(em[i])
 
@@ -107,12 +107,9 @@ let em = ["jyo","chamu","harshi","bindu"]
 // })
 // console.log(res)
 
-let res=em.forEach(function(element) {
-    console.log( element+"  ok  ")
-})
-console.log(em)
 
 // let result = em.map((element,index) => {
 //     return element +" okk "+index
 // })
 // console.log(result)
+// let em = ["jyo","chamu","harshi","bindu"]

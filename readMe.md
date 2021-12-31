@@ -316,5 +316,88 @@
 + forEach() (ES-5)
 + map()--> (ES-6)
 
+### DOM
+	-  document object model
+    - Document
+	- History
+	- window
+	- Navigator
++	 DOM Methods
+    - getelementclassName
+	- getElementID
+	- quereySelector
+	- innerText
+	- inner Html
+	- textContent
+	- append
+	- appendchild
+	- set Attribute
+	- classs List
+	- style
+	- src
+
+#### JSON
++ JavaScript Object Notation
+	- To Exchange Information between Application and server
+
+...
+
+{
+	"name":"Jyothi Reddy",
+	"salary":"12lPA",
+	"designation":"rxgfry",
+	"phno":"678563"
+}
+....
+
++ Ajax call or Promises(Fetch API)
+
+ #### ReactJS
+
+ #### ReactJS Features
+
++  It is a library
++   It follows component based Architecture
+	- Function component
+	- class component
+	- pure component
+	- Higher order component
++  It provides virtual DOM
++ It provides JSx(Javascript and XMl)
++ unidirectional data flow
++ single page Applications 
+
++  Project Environment setup
+   - [Download Notejs](https://nodejs.org/en/download/)
+   - [downoad visual studio code](https://code.visualstudio.com/)
+   - install nodejs and check versions of `node` and `npm`
+	  - 'node'-'v'
+	  - 'npm'-'v'
+   -  `webpack` and `babel` 
+   - `creaate-react-app`
+		- `npm install create-raect-app`
+		   - ` create-react-app projectname`
+		- `npx create-react-app appname`
+
++ index.html
++ index.js
++ App.ja 
+    + Index page
+	- nav.js
+	- body.js
+	- footer.js
+
+	+ Home.js
+	   - nav
+	   - body
+	   - footer
+	+ login.js
+	+ Register
+	+ About
+	+ contact
+
+
+
+
 
     
