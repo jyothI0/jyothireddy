@@ -367,6 +367,76 @@
 + unidirectional data flow
 + single page Applications 
 
+
++ Props
+
+   - To pass data from one component to another component we will use props
+   - props are immutable
+
+   + Union Bank
+        - Andhra BAnk(Functional)
+		- cooperation BAnk(Class)
+
+	+ states
+
+	- In react to maintain information we will use states
+	- we can maintain states in class component only ( Before react16.8 version)
+	- To take a state in react,Try to create constructor above render method and inside class component
+	- use `rconst` snippet
+
+	- TO update the state information in class component use `setstate()` method
+
+	constructor() {
+		super();
+		this.state= {
+
+		}
+	}
+
++ To update the information inclass class component we have to follow
+ component life cycle methods
+   - `componentWillReceiveProps()`
+   - `componentWillMount()`
+   - `ComponentDidMount()`
+   - `shouldComponentUpdate()`
+   - `componentWillUpdate()`
+   - `componentWillUnMount()`
+   - `componentDidUpdate()`
+
+ #### Hooks 
+
+ + from react16.8 Hooks are introduced
+
+ - Parent - child1 --> child2 --> child3
+ - `useState`
+ - `useEffect`
+ - `useReference`
+ -  `useContest`
+
+ ####  List Rendering 
+
+#### Event handling and form handling
+
+- `on change`
+- `onSubmit`
+- `prentDefault`
+
+#### Routing in React
+
++ To navigate (Route) from component to another
+	- install react-router-dom package by using
+	-`npm install react-route-dom`
+	- `Browser router`
+	-`Routes`
+	- `Route`
+	- `Link`
+	- `path`
+	- `element`
+    - 
+	
+
+
+
 +  Project Environment setup
    - [Download Notejs](https://nodejs.org/en/download/)
    - [downoad visual studio code](https://code.visualstudio.com/)
@@ -382,10 +452,10 @@
 + index.html
 + index.js
 + App.ja 
-    + Index page
-	- nav.js
-	- body.js
-	- footer.js
+     + Index page
+	  - nav.js
+	  - body.js
+	  - footer.js
 
 	+ Home.js
 	   - nav
@@ -395,6 +465,9 @@
 	+ Register
 	+ About
 	+ contact
+
+
+
 
 
 
