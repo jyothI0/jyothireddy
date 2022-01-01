@@ -8,10 +8,16 @@
     <style>
         .cards {
             display: flex;
+            flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-right: 50px;
             
         }
         .card {
             border: 1px solid black;
+            margin-bottom: 10px;
+            background-color: blanchedalmond;
         }
     </style>
 </head>
@@ -37,16 +43,16 @@
              let cardid=document.createElement('h1')
              cardid.textContent=mainobject.id;
              card.appendChild(cardid);
-             main.appendChild(card);
-             
+            
              let title1=document.createElement('h2')
-             title1=textContent=mainobject.title;
+             title1.textContent=mainobject.title;
              card.appendChild(title1)
 
              let para=document.createElement('p')
-             para=textContent=mainobject.body;
+             para.textContent=mainobject.body;
              card.appendChild(para)
-
+             main.appendChild(card);
+             
            })
        }
 
